@@ -1,0 +1,94 @@
+StartScene_GameStart=Touch to start.
+
+StageScene_StageText=Stage
+StageScene_MoveText=Move
+StageScene_UndoText=Undo
+StageScene_RetryText=Retry
+StageScene_MenuMain=Menu
+StageScene_MenuOption=Configuration
+StageScene_MenuOption_Theme1=Theme 1
+StageScene_MenuOption_Theme2=Theme 2
+StageScene_MenuOption_Bgm=Bgm Sound
+StageScene_MenuOption_Efx=Effect Sound
+StageScene_MenuOption_Vibrate=Vibrate
+StageScene_MenuStageSelect=Stage Select
+StageScene_MenuStage=Stage
+StageScene_MenuStage_Current=Current
+StageScene_MenuStage_UnableStage=<color='red'>This stage has not yet been reached.</color>
+StageScene_MenuStage_StartStage=Do you want to start the stage
+StageScene_MenuShop=Shop
+StageScene_MenuMyInformation=My Info
+StageScene_MenuMyInformation_Version=Version
+StageScene_MenuMyInformation_Category=Stage Clear Count\nPerfect Clear Count\nTotal Play Time\nTotal Moves\nTotal Undos\nTotal Retrys\nTotal Golden Cube\nNumber of Characters
+StageScene_MenuMyInformation_Restore=Restore
+StageScene_MenuDeveloper=Developer Info
+StageScene_MenuDeveloper_Blog=Blog\nblog.naver.com/pkh879
+StageScene_MenuDeveloper_Web=Web Site\nwww.hobookgames.site
+StageScene_MenuHome=Home
+
+Alert_Yes=Yes
+Alert_No=No
+Alert_Check=OK
+Alert_BuyGoldcube=<color='red'><size='40'>! Cash payment products\n</size></color>Do you want to sponser <size='55'>KRW 3,300</size>\n to get the <size='55'>`Gold Cube x 10`</size> ?
+Alert_BuyGoldcubeYes=Thank you for your support! : )\n You have earned 10 Golden Cubes!
+Alert_BuyRemoveAd=<color='red'><size='40'>! Cash payment products\n</size></color>Would you like to <size='55'>`Remove the ad`</size>\n by sponsoring <size='55'>KRW 2,500</size> for a cup of coffee?\nI`ll also give you <size='55'>`A special character`</size> !!
+Alert_BuyRemoveAdYes=Thank you for your support! : )\nSpecial character 'Character 16' earned!
+Alert_Attendance=Welcome to Day 1! \n\n Earn 2 'Golden Cubes' !
+Alert_AttendanceContinue=Thank you for coming today! \n\n Get 1 Golden Cube !
+Alert_GetSpecialCharacter17=Fantastic!\n You have completed the title 'PUSH CUBE'! \nYou have acquired the special character 'Character 17'!
+Alert_GetSpecialCharacter18=Thank you for pressing Hobook Games. \n\nYou have acquired the special character 'Character 18'!
+Alert_GetSpecialCharacter19=You have already played 3 hours of 'Push Cube'!\n\n You've earned the special character 'Character 19'!
+Alert_GetSpecialCharacter20=Undo 100 times, Retry 100 times! \n I support your challenge! \n\nYou have acquired the special character '20'!
+Alert_GetSpecialCharacter21=It's amazing to collect 100 golden cubes! \n\nYou have acquired the special character 'Character 21'!
+Alert_GetSpecialCharacter22=Congratulations! \nClear up to 100 stages! \n\nYou have acquired the special character 'Character 22.'
+Alert_GetSpecialCharacter23=It's amazing !! \nPerfectly clear up to 100 stages! \n\nYou have acquired the special character 'Character 23'!
+Alert_GetSpecialCharacter24=Finally, all the friends have gathered! \n\nYou have acquired the special character 'Character 24'!
+Alert_Rating=Thank you for playing 'Push Cube'! \n If you're ok, please review and rate : )
+Alert_WarningUndo=Not enough undo count.
+Alert_WarningUndoStart=Start point.
+Alert_BuySuccess=You have successfully purchased!
+Alert_BuyCheck=Would you like to purchase?
+Alert_BuyLackGoldcube=<color='red'>Not enough golden cubes needed.</color>
+Alert_NeedStage=Stage Clear!
+Alert_GameQuit=Thank you! :) \nAre you sure you want to exit `Push Cube`?
+Alert_RestoreIAPSuccess=Restored previous purchase record.
+
+Tutorial_Move1=Diagonal right up\nSwipe!
+Tutorial_Move2=Diagonal left down\nSwipe!
+Tutorial_Move3=Diagonal left up\nSwipe!
+Tutorial_Move4=Diagonal right down\nSwipe!
+Tutorial_IntroTutorial1=Welcome ! 
+Tutorial_IntroTutorial2=`Push Cube` is a Sokoban puzzle game \nwhere you push the cube \nand put it all in the target. 
+Tutorial_IntroTutorial3=Before we start, \nlet's learn how to operate. 
+Tutorial_ControlTutorialClear1=Perfect !
+Tutorial_ControlTutorialClear2=Now slide the cube \nto the target and take it! 
+Tutorial_ControlTutorialClear3=It's okay if you make a mistake. \nTry again by pressing the \n`Undo` and `Retry` buttons at the top! 
+Tutorial_Clear1=Great! \nNow all the tutorials are over. 
+Tutorial_Clear2=As you solve the puzzle, \nfind hidden friends! 
+
+ItemName0=Friend 0
+ItemName1=Friend 1
+ItemName2=Friend 2
+ItemName3=Friend 3
+ItemName4=Friend 4
+ItemName5=Friend 5
+ItemName6=Friend 6
+ItemName7=Friend 7
+ItemName8=Friend 8
+ItemName9=Friend 9
+ItemName10=Friend 10
+ItemName11=Friend 11
+ItemName12=Friend 12
+ItemName13=Friend 13
+ItemName14=Friend 14
+ItemName15=Friend 15
+ItemName16=Friend 16
+ItemName17=Friend 17
+ItemName18=Friend 18
+ItemName19=Friend 19
+ItemName20=Friend 20
+ItemName21=Friend 21
+ItemName22=Friend 22
+ItemName23=Friend 23
+ItemName24=Friend 24
+ItemName101=Undo x 30

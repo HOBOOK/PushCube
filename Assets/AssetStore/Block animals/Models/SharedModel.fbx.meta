@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 394779d643673134190d7f022b71abe9
+timeCreated: 1539719646
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chr_BELKA
+    100002: chr_BRONENOSETC3
+    100004: chr_CIPLENOK
+    100006: chr_DEMON
+    100008: chr_DRAKON
+    100010: chr_EDINOROG
+    100012: chr_EGIK
+    100014: chr_ENOT
+    100016: chr_HOMYAK
+    100018: chr_KENGURU
+    100020: chr_KOALLA
+    100022: chr_KOTENOK
+    100024: chr_KR_PANDA
+    100026: chr_KROLIK1
+    100028: chr_LEMUR
+    100030: chr_LISENOK
+    100032: chr_MEDVED
+    100034: chr_OLENENOK
+    100036: chr_PANDA
+    100038: chr_PESETS
+    100040: chr_PINGVIN
+    100042: chr_POROSENOK
+    100044: chr_SHENOK
+    100046: //RootNode
+    400000: chr_BELKA
+    400002: chr_BRONENOSETC3
+    400004: chr_CIPLENOK
+    400006: chr_DEMON
+    400008: chr_DRAKON
+    400010: chr_EDINOROG
+    400012: chr_EGIK
+    400014: chr_ENOT
+    400016: chr_HOMYAK
+    400018: chr_KENGURU
+    400020: chr_KOALLA
+    400022: chr_KOTENOK
+    400024: chr_KR_PANDA
+    400026: chr_KROLIK1
+    400028: chr_LEMUR
+    400030: chr_LISENOK
+    400032: chr_MEDVED
+    400034: chr_OLENENOK
+    400036: chr_PANDA
+    400038: chr_PESETS
+    400040: chr_PINGVIN
+    400042: chr_POROSENOK
+    400044: chr_SHENOK
+    400046: //RootNode
+    2300000: chr_BELKA
+    2300002: chr_BRONENOSETC3
+    2300004: chr_CIPLENOK
+    2300006: chr_DEMON
+    2300008: chr_DRAKON
+    2300010: chr_EDINOROG
+    2300012: chr_EGIK
+    2300014: chr_ENOT
+    2300016: chr_HOMYAK
+    2300018: chr_KENGURU
+    2300020: chr_KOALLA
+    2300022: chr_KOTENOK
+    2300024: chr_KR_PANDA
+    2300026: chr_KROLIK1
+    2300028: chr_LEMUR
+    2300030: chr_LISENOK
+    2300032: chr_MEDVED
+    2300034: chr_OLENENOK
+    2300036: chr_PANDA
+    2300038: chr_PESETS
+    2300040: chr_PINGVIN
+    2300042: chr_POROSENOK
+    2300044: chr_SHENOK
+    3300000: chr_BELKA
+    3300002: chr_BRONENOSETC3
+    3300004: chr_CIPLENOK
+    3300006: chr_DEMON
+    3300008: chr_DRAKON
+    3300010: chr_EDINOROG
+    3300012: chr_EGIK
+    3300014: chr_ENOT
+    3300016: chr_HOMYAK
+    3300018: chr_KENGURU
+    3300020: chr_KOALLA
+    3300022: chr_KOTENOK
+    3300024: chr_KR_PANDA
+    3300026: chr_KROLIK1
+    3300028: chr_LEMUR
+    3300030: chr_LISENOK
+    3300032: chr_MEDVED
+    3300034: chr_OLENENOK
+    3300036: chr_PANDA
+    3300038: chr_PESETS
+    3300040: chr_PINGVIN
+    3300042: chr_POROSENOK
+    3300044: chr_SHENOK
+    4300000: chr_PANDA
+    4300002: chr_SHENOK
+    4300004: chr_POROSENOK
+    4300006: chr_PINGVIN
+    4300008: chr_PESETS
+    4300010: chr_OLENENOK
+    4300012: chr_MEDVED
+    4300014: chr_LISENOK
+    4300016: chr_LEMUR
+    4300018: chr_KROLIK1
+    4300020: chr_KR_PANDA
+    4300022: chr_KOTENOK
+    4300024: chr_KOALLA
+    4300026: chr_KENGURU
+    4300028: chr_HOMYAK
+    4300030: chr_ENOT
+    4300032: chr_EGIK
+    4300034: chr_EDINOROG
+    4300036: chr_DRAKON
+    4300038: chr_DEMON
+    4300040: chr_CIPLENOK
+    4300042: chr_BRONENOSETC3
+    4300044: chr_BELKA
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.025
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,95 @@
+﻿StartScene_GameStart=게임시작을 하려면 터치하세요.
+
+StageScene_StageText=스테이지
+StageScene_MoveText=이동
+StageScene_UndoText=취소
+StageScene_RetryText=다시
+StageScene_MenuMain=메뉴
+StageScene_MenuOption=설정
+StageScene_MenuOption_Theme1=테마 1
+StageScene_MenuOption_Theme2=테마 2
+StageScene_MenuOption_Bgm=배경음
+StageScene_MenuOption_Efx=효과음
+StageScene_MenuOption_Vibrate=진동
+StageScene_MenuStageSelect=스테이지 선택
+StageScene_MenuStage=스테이지
+StageScene_MenuStage_Current=현재
+StageScene_MenuStage_UnableStage=<color='red'>아직 도달하지 못한 스테이지입니다.</color>
+StageScene_MenuStage_StartStage=스테이지를 시작하겠습니까
+StageScene_MenuShop=상점
+StageScene_MenuMyInformation=내 정보
+StageScene_MenuMyInformation_Version=설치 버전
+StageScene_MenuMyInformation_Category=스테이지 클리어 수\n완벽 클리어 수\n전체 플레이 타임\n총 이동 횟수\n총 취소 횟수\n총 재시도 횟수\n총 획득 황금 큐브\n보유 캐릭터 수
+StageScene_MenuMyInformation_Restore=구매기록 복원
+StageScene_MenuDeveloper=개발자 정보
+StageScene_MenuDeveloper_Blog=네이버 블로그\nblog.naver.com/pkh879
+StageScene_MenuDeveloper_Web=웹사이트\nwww.hobookgames.site
+StageScene_MenuHome=홈으로
+
+Alert_Yes=예
+Alert_No=아니오
+Alert_Check=확인
+Alert_BuyGoldcube=<color='red'><size='40'>! 현금 결제 상품\n</size></color><size='55'>KRW 3,300</size>을 후원하여\n <size='55'>`황금 큐브 10개`</size> 를 획득하시겠습니까?
+Alert_BuyGoldcubeYes=후원해주셔서 감사합니다! ^ㅡ^ \n황금 큐브 10개를 획득하였습니다!
+Alert_BuyRemoveAd=<color='red'><size='40'>! 현금 결제 상품\n</size></color>아메리카노 한잔의 가격 <size='55'>KRW 2,500</size>을 후원하여\n <size='55'>`광고 제거`</size> 를 하시겠습니까 ?\n<size='55'>`스페셜 캐릭터 1종`</size> 도 드릴게요!
+Alert_BuyRemoveAdYes=후원해주셔서 감사합니다! ^ㅡ^ \n스페셜 캐릭터 `친구 16`을(를) 획득하였습니다!
+Alert_Attendance=1일차 출석을 환영합니다!\n\n `황금 큐브` 2개 획득!
+Alert_AttendanceContinue=오늘도 와주셔서 감사합니다!\n\n `황금 큐브` 1개 획득!
+Alert_GetSpecialCharacter17=환상적이네요! \n'PUSH CUBE' 타이틀을 완성했군요! \n\n스페셜 캐릭터 `친구 17`을(를) 획득하였습니다.!
+Alert_GetSpecialCharacter18=Hobook Games를 눌러주셔서 감사합니다. \n\n스페셜 캐릭터 `친구 18`을(를) 획득하였습니다.!"
+Alert_GetSpecialCharacter19=벌써 'Push Cube'를 플레이 시간이 3시간이 되었네요! 짝짝짝~!r\n\n스페셜 캐릭터 `친구 19`을(를) 획득하였습니다.!
+Alert_GetSpecialCharacter20=취소 100번, 다시하기 100번 달성!\n당신의 재도전을 응원합니다! \n\n스페셜 캐릭터 `친구 20`을(를) 획득하였습니다.!
+Alert_GetSpecialCharacter21=황금 큐브를 100개나 모으시다니 대단합니다! \n\n스페셜 캐릭터 `친구 21`을(를) 획득하였습니다.!
+Alert_GetSpecialCharacter22=축하드립니다!\n100스테이지 까지 모두 클리어! \n\n스페셜 캐릭터 `친구 22`을(를) 획득하였습니다.!
+Alert_GetSpecialCharacter23=대단하시네요!!\n100스테이지 까지 완벽클리어!\n\n스페셜 캐릭터 `친구 23`을(를) 획득하였습니다.!
+Alert_GetSpecialCharacter24=드디어 모든 친구들이 모였네요!\n\n스페셜 캐릭터 `친구 24`을(를) 획득하였습니다.!
+Alert_Rating=`Push Cube`를 플레이 해주셔서 감사합니다!\n 괜찮으시다면, 리뷰와 평점을 부탁드리겠습니다 ^ㅡ^
+Alert_WarningUndo=취소 횟수가 부족합니다.
+Alert_WarningUndoStart=시작점 입니다.
+Alert_BuySuccess=을(를) 성공적으로 구매하였습니다.
+Alert_BuyCheck=을(를) 구매하시겠습니까?
+Alert_BuyLackGoldcube=<color='red'>황금 큐브가 부족합니다.</color>
+Alert_NeedStage=스테이지 클리어!
+Alert_GameQuit=수고하셨습니다! : )\n`Push Cube`를 종료하시겠습니까?
+Alert_RestoreIAPSuccess=이전의 구매기록을 복구하였습니다.
+
+Tutorial_Move1=대각선 오른쪽 위로\nSwipe!
+Tutorial_Move2=대각선 왼쪽 아래로\nSwipe!
+Tutorial_Move3=대각선 왼쪽 위로\nSwipe!
+Tutorial_Move4=대각선 오른쪽 아래로\nSwipe!
+Tutorial_IntroTutorial1=환영합니다. 
+Tutorial_IntroTutorial2=`Push Cube`는 큐브를 밀어 \n목표지점에 모두 넣으면 되는 \n소코반 퍼즐 게임입니다. 
+Tutorial_IntroTutorial3=게임 시작 전, 조작법에 대해 알아보겠습니다. 
+Tutorial_ControlTutorialClear1=완벽합니다! 
+Tutorial_ControlTutorialClear2=이제 큐브를 목표지점까지\n밀어서 가져가세요! 
+Tutorial_ControlTutorialClear3=실수를 해도 괜찮습니다. \n상단의 취소와 다시버튼을\n눌러 재시도 하세요! 
+Tutorial_Clear1=대단합니다! \n이제 모든 튜토리얼이 끝났습니다. 
+Tutorial_Clear2=퍼즐을 풀어가면서 \n숨겨진 친구들도 찾아보세요! 
+
+ItemName0=친구 0
+ItemName1=친구 1
+ItemName2=친구 2
+ItemName3=친구 3
+ItemName4=친구 4
+ItemName5=친구 5
+ItemName6=친구 6
+ItemName7=친구 7
+ItemName8=친구 8
+ItemName9=친구 9
+ItemName10=친구 10
+ItemName11=친구 11
+ItemName12=친구 12
+ItemName13=친구 13
+ItemName14=친구 14
+ItemName15=친구 15
+ItemName16=친구 16
+ItemName17=친구 17
+ItemName18=친구 18
+ItemName19=친구 19
+ItemName20=친구 20
+ItemName21=친구 21
+ItemName22=친구 22
+ItemName23=친구 23
+ItemName24=친구 24
+ItemName101=취소 x 30
+

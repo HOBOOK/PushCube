@@ -1,0 +1,94 @@
+﻿StartScene_GameStart=触摸即可开始。
+
+StageScene_StageText=舞台
+StageScene_MoveText=移动
+StageScene_UndoText=撤消
+StageScene_RetryText=重试
+StageScene_MenuMain=菜单
+StageScene_MenuOption=配置
+StageScene_MenuOption_Theme1=主题1
+StageScene_MenuOption_Theme2=主题2
+StageScene_MenuOption_Bgm=背景音乐
+StageScene_MenuOption_Efx=效果音
+StageScene_MenuOption_Vibrate=振动
+StageScene_MenuStageSelect=舞台选择
+StageScene_MenuStage=舞台
+StageScene_MenuStage_Current=当前
+StageScene_MenuStage_UnableStage=<color='red'>尚未达到此阶段。</color>
+StageScene_MenuStage_StartStage=您是否要开始舞台
+StageScene_MenuShop=商店
+StageScene_MenuMyInformation=我的信息
+StageScene_MenuMyInformation_Version=版本
+StageScene_MenuMyInformation_Category=阶段清除计数\n完美清除计数\n总播放时间\n总移动次数\n总撤消\n总重试\n总金方\n字符数
+StageScene_MenuMyInformation_Restore=还原
+StageScene_MenuDeveloper=开发人员信息
+StageScene_MenuDeveloper_Blog=博客\nblog.naver.com/pkh879
+StageScene_MenuDeveloper_Web=网站\nwww.hobookgames.site
+StageScene_MenuHome=主页
+
+Alert_Yes=是
+Alert_No=否
+Alert_Check=确定
+Alert_BuyGoldcube=<color='red'><size='40'>！现金付款产品\n </size></color>您是否想赞助<size='55'> 3,300韩元</size> \n以获取<size='55'>`金立方x 10` </size>？
+Alert_BuyGoldcubeYes=谢谢您的支持！ ：）\n您已赢得10个金立方奖！
+Alert_BuyRemoveAd=<color='red'> <size='40'>！现金付款产品\n </size></color>您想赞助<size='55'> 2,500韩元</size>来<size='55'>`删除广告`</size> \n一杯咖啡？\n我还会给你<size='55'>`特殊字符</size>！
+Alert_BuyRemoveAdYes=谢谢您的支持！ ：）\n已获得特殊字符“字符16”！
+Alert_Attendance=欢迎来到第一天！ \n\n赚取2个“金立方”！
+Alert_AttendanceContinue=感谢您的光临！\n\n获得1个Golden Cube！
+Alert_GetSpecialCharacter17=太棒了！\n您已经完成标题“ PUSH CUBE”！ \n您已获得特殊字符“字符17”！
+Alert_GetSpecialCharacter18=感谢您按下Hobook游戏。 \n\n您已获得特殊字符“字符18”！
+Alert_GetSpecialCharacter19=您已经玩了3个小时的“ Push Cube”！\n\n您已经赢得了特殊字符“ Character 19”
+Alert_GetSpecialCharacter20=撤消100次，重试100次！ \n我支持您的挑战！ \n\n您已获得特殊字符“ 20”！
+Alert_GetSpecialCharacter21=收集100个金色立方体真是太神奇了！ \n\n您已经获得了特殊字符“字符21”！
+Alert_GetSpecialCharacter22=恭喜！ \n清除多达100个阶段！ \n\n您已获得特殊字符“字符22”。
+Alert_GetSpecialCharacter23=太神奇了！ \n完美清除多达100个阶段！ \n\n您已获得特殊字符“字符23”！
+Alert_GetSpecialCharacter24=最后，所有朋友都聚集了！ \n\n您已获得特殊字符“字符24”
+Alert_Rating=谢谢您玩“ Push Cube”！ \n如果还可以，请查看并评分：）
+Alert_WarningUndo=撤消计数不足。
+Alert_WarningUndoStart=起点。
+Alert_BuySuccess=您已成功购买！
+Alert_BuyCheck=您要购买吗？
+Alert_BuyLackGoldcube=<color='red'>不需要足够的金色立方体。</color>
+Alert_NeedStage=阶段清除！
+Alert_GameQuit=谢谢！ :) \n确定要退出“ Push Cube”吗？
+Alert_RestoreIAPSuccess=已还原以前的购买记录。
+
+Tutorial_Move1=右上对角线\n滑动！
+Tutorial_Move2=向左斜下\n滑动！
+Tutorial_Move3=对角线左上\n刷卡！
+Tutorial_Move4=右斜向下\n滑动！
+Tutorial_IntroTutorial1=欢迎！
+Tutorial_IntroTutorial2=`Push Cube` 是一个推箱子游戏，\n您将其推入\n并将其全部放入目标。
+Tutorial_IntroTutorial3=开始之前，\n让我们学习操作方法。
+Tutorial_ControlTutorialClear1=完美！
+Tutorial_ControlTutorialClear2=现在将立方体\n滑到目标上并抓住它！
+Tutorial_ControlTutorialClear3=如果您输入有误，也可以。 \n按顶部的\n`撤消`和`重试`按钮重试！
+Tutorial_Clear1=很棒！ \n现在所有教程都结束了。
+Tutorial_Clear2=在解决难题时，\n会找到隐藏的朋友！
+
+ItemName0=友人 0
+ItemName1=友人 1
+ItemName2=友人 2
+ItemName3=友人 3
+ItemName4=友人 4
+ItemName5=友人 5
+ItemName6=友人 6
+ItemName7=友人 7
+ItemName8=友人 8
+ItemName9=友人 9
+ItemName10=友人 10
+ItemName11=友人 11
+ItemName12=友人 12
+ItemName13=友人 13
+ItemName14=友人 14
+ItemName15=友人 15
+ItemName16=友人 16
+ItemName17=友人 17
+ItemName18=友人 18
+ItemName19=友人 19
+ItemName20=友人 20
+ItemName21=友人 21
+ItemName22=友人 22
+ItemName23=友人 23
+ItemName24=友人 24
+ItemName101=撤消 x 30
