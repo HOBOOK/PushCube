@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Facebook.Unity;
+using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
@@ -44,6 +45,17 @@ public class GameSystemManager : MonoBehaviour
         float process = 0f;
         LoadImageTransform.GetChild(0).gameObject.SetActive(true);
         LoadImageTransform.GetChild(1).gameObject.SetActive(false);
+        if (FB.IsInitialized)
+        {
+            FB.ActivateApp();
+        }
+        else
+        {
+            //Handle FB.Init
+            FB.Init(() => {
+                FB.ActivateApp();
+            });
+        }
         while (!isAdMobLoad||!isGPGSLoad)
         {
             LoadImageTransform.GetChild(0).GetComponent<Image>().fillAmount = process;
