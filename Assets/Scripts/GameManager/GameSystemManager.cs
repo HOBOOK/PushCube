@@ -56,7 +56,7 @@ public class GameSystemManager : MonoBehaviour
                 FB.ActivateApp();
             });
         }
-        while (!isAdMobLoad||!isGPGSLoad)
+        while (!isAdMobLoad)
         {
             LoadImageTransform.GetChild(0).GetComponent<Image>().fillAmount = process;
 

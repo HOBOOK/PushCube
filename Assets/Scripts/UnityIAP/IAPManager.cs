@@ -3,7 +3,6 @@ using UnityEngine.Purchasing;
 using UnityEngine.Purchasing.Security;
 using UnityEngine.Analytics;
 using UnityEngine.UI;
-using OneStore;
 
 public class IAPManager : MonoBehaviour, IStoreListener
 {
@@ -16,10 +15,6 @@ public class IAPManager : MonoBehaviour, IStoreListener
 	{
         Instance = this;
         sProductIds = new string[] { "remove_ad", "goldencube_10" };
-        if (Application.installerName.Equals("com.skt.skaf.A000Z00040")|| Application.installerName.Equals("com.kt.olleh.storefront") || Application.installerName.Equals("android.lgt.appstore"))
-            storeType = StoreType.OneStore;
-        else
-            storeType = StoreType.GoogleStore;
 	}
 
 	public void InitStore()
@@ -33,11 +28,11 @@ public class IAPManager : MonoBehaviour, IStoreListener
                 builder.AddProduct(sProductIds[1], ProductType.Consumable, new IDs { { sProductIds[1], GooglePlay.Name } });
                 UnityPurchasing.Initialize(this, builder);
             }
-            else if (storeType == StoreType.OneStore)
-            {
-                string base64EncodedPublicKey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRrFYKKco7ZhEDiS+/xsOih0juoHpwRzTr3gwBKCO2N3jgQcg6iAuI4I9R7HvslBfPOFYTrnD6aT5XrnR1XMxSGMLKUOtFyAD74BUFPonMcGlO12imMhUaaUlxuk+DnkPo1KsNjDamvyO2/oYA8dhkkACYWR2zdU34F48U4NWDSQIDAQAB";
-                Onestore_IapCallManager.connectService(base64EncodedPublicKey);
-            }
+            // else if (storeType == StoreType.OneStore)
+            // {
+            //     string base64EncodedPublicKey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRrFYKKco7ZhEDiS+/xsOih0juoHpwRzTr3gwBKCO2N3jgQcg6iAuI4I9R7HvslBfPOFYTrnD6aT5XrnR1XMxSGMLKUOtFyAD74BUFPonMcGlO12imMhUaaUlxuk+DnkPo1KsNjDamvyO2/oYA8dhkkACYWR2zdU34F48U4NWDSQIDAQAB";
+            //     Onestore_IapCallManager.connectService(base64EncodedPublicKey);
+            // }
         }
 	}
 
@@ -52,10 +47,10 @@ public class IAPManager : MonoBehaviour, IStoreListener
             else
                 storeController.InitiatePurchase(sProductIds[index]);
         }
-        else
-        {
-            Onestore_IapCallManager.buyProduct(sProductIds[index], "inapp", "this is test payload!");
-        }
+        // else
+        // {
+        //     Onestore_IapCallManager.buyProduct(sProductIds[index], "inapp", "this is test payload!");
+        // }
     }
 
     public void Restore()

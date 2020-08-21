@@ -265,8 +265,8 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(3.0f);
         if(StageNumber!=1)
         {
-            if(StageNumber==50)
-                GooglePlayManager.Instance.OnAddAchievement(2);
+            // if(StageNumber==50)
+            //     GooglePlayManager.Instance.OnAddAchievement(2);
             GameStart(StageNumber);
             AdMobManager.Instance.ShowInterstitial();
         }

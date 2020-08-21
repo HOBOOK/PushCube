@@ -396,7 +396,7 @@ public class StartManager : MonoBehaviour
                 case 18:
                     if (hobookGamesClickCount>= 10)
                     {
-                        GooglePlayManager.Instance.OnAddAchievement(6);
+                        // GooglePlayManager.Instance.OnAddAchievement(6);
                         PlayerData.AddCharacter(18);
                         GameSystemManager.ShowAlertMessage(new AlertMessage(1, string.Format("{0}", LocalizationManager.GetText("Alert_GetSpecialCharacter18")), null, GameAssetsManager.instance.CharacterAssets[18].asset, null));
                         AddCharToGrid(18);
@@ -413,7 +413,7 @@ public class StartManager : MonoBehaviour
                 case 20:
                     if (PlayerData.undoTryCount>=100&&PlayerData.retryCount>=100) //취소100번,다시하기100번
                     {
-                        GooglePlayManager.Instance.OnAddAchievement(5);
+                        // GooglePlayManager.Instance.OnAddAchievement(5);
                         PlayerData.AddCharacter(20);
                         GameSystemManager.ShowAlertMessage(new AlertMessage(1, string.Format("{0}", LocalizationManager.GetText("Alert_GetSpecialCharacter20")), null, GameAssetsManager.instance.CharacterAssets[20].asset, null));
                         AddCharToGrid(20);
@@ -430,7 +430,7 @@ public class StartManager : MonoBehaviour
                 case 22:
                     if(PlayerData.currentStage==100)
                     {
-                        GooglePlayManager.Instance.OnAddAchievement(1);
+                        // GooglePlayManager.Instance.OnAddAchievement(1);
                         PlayerData.AddCharacter(22);
                         GameSystemManager.ShowAlertMessage(new AlertMessage(1, string.Format("{0}", LocalizationManager.GetText("Alert_GetSpecialCharacter22")), null, GameAssetsManager.instance.CharacterAssets[22].asset, null));
                         AddCharToGrid(22);
@@ -449,7 +449,7 @@ public class StartManager : MonoBehaviour
                         }
                         if(cnt==100)
                         {
-                            GooglePlayManager.Instance.OnAddAchievement(4);
+                            // GooglePlayManager.Instance.OnAddAchievement(4);
                             PlayerData.AddCharacter(23);
                             GameSystemManager.ShowAlertMessage(new AlertMessage(1, string.Format("{0}", LocalizationManager.GetText("Alert_GetSpecialCharacter23")), null, GameAssetsManager.instance.CharacterAssets[23].asset, null));
                             AddCharToGrid(23);
@@ -459,7 +459,7 @@ public class StartManager : MonoBehaviour
                 case 24:
                     if(charList.Count==1)
                     {
-                        GooglePlayManager.Instance.OnAddAchievement(3);
+                        // GooglePlayManager.Instance.OnAddAchievement(3);
                         PlayerData.AddCharacter(24);
                         GameSystemManager.ShowAlertMessage(new AlertMessage(1, string.Format("{0}", LocalizationManager.GetText("Alert_GetSpecialCharacter24")), null, GameAssetsManager.instance.CharacterAssets[24].asset, null));
                         AddCharToGrid(24);

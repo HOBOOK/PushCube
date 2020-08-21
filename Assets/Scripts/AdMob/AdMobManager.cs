@@ -85,7 +85,7 @@ public class AdMobManager : MonoBehaviour
 #if UNITY_ANDROID
         string adUnitId = IsTest ? "ca-app-pub-3940256099942544/1033173712" : "ca-app-pub-1654715490901132/5545289155";
 #elif UNITY_IPHONE
-        //string adUnitId = "ca-app-pub-3940256099942544/4411468910";
+        string adUnitId = "ca-app-pub-3940256099942544/4411468910";
 #else
         string adUnitId = "unexpected_platform";
 #endif

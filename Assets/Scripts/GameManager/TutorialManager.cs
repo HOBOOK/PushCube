@@ -222,7 +222,7 @@ public class TutorialManager : MonoBehaviour
         yield return StartCoroutine(ShowingTutorialText(LocalizationManager.GetText("Tutorial_Clear1")));
         yield return StartCoroutine(ShowingTutorialText(LocalizationManager.GetText("Tutorial_Clear2")));
         GameManager.instance.GameStart(1);
-        GooglePlayManager.Instance.OnAddAchievement(0);
+        // GooglePlayManager.Instance.OnAddAchievement(0);
     }
 
 
