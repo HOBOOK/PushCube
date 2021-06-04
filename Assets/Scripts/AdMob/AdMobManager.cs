@@ -19,7 +19,7 @@ public class AdMobManager : MonoBehaviour
 #if UNITY_ANDROID
         string appId = "ca-app-pub-3940256099942544~3347511713";
 #elif UNITY_IPHONE
-            string appId = "ca-app-pub-3940256099942544~1458002511";
+            string appId = "ca-app-pub-1654715490901132~3803966061";
 #else
             string appId = "unexpected_platform";
 #endif
@@ -46,7 +46,7 @@ public class AdMobManager : MonoBehaviour
 #if UNITY_ANDROID
         string AdUnitID = IsTest ? "ca-app-pub-3940256099942544/6300978111" : "ca-app-pub-1654715490901132/9895312291";
 #else
-        string AdUnitID = "unDefind";
+        string AdUnitID = IsTest ? "ca-app-pub-3940256099942544/2934735716" : "ca-app-pub-1654715490901132/4401079474";
 #endif
 
         banner = new BannerView(AdUnitID, AdSize.SmartBanner, AdPosition.Top);
@@ -85,7 +85,7 @@ public class AdMobManager : MonoBehaviour
 #if UNITY_ANDROID
         string adUnitId = IsTest ? "ca-app-pub-3940256099942544/1033173712" : "ca-app-pub-1654715490901132/5545289155";
 #elif UNITY_IPHONE
-        string adUnitId = "ca-app-pub-3940256099942544/4411468910";
+        string adUnitId = IsTest ? "ca-app-pub-3940256099942544/4411468910" : "ca-app-pub-1654715490901132/1092389854";
 #else
         string adUnitId = "unexpected_platform";
 #endif
